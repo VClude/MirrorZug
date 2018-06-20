@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SomeServlet</servlet-name>
+        <servlet-class>com.chilrend.zugticket.SomeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>zugLogin</servlet-name>
+        <servlet-class>com.chilrend.zugticket.zugLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>zugLogout</servlet-name>
+        <servlet-class>com.chilrend.zugticket.zugLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SomeServlet</servlet-name>
+        <url-pattern>/SomeServlet/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>zugLogin</servlet-name>
+        <url-pattern>/zugLogin/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>zugLogout</servlet-name>
+        <url-pattern>/zugLogout/*</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
