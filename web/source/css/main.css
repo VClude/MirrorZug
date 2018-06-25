@@ -35,7 +35,7 @@ nav{
 .blockquote p{
     font-size: 1rem !important;
 }
-.md-form input:invalid{
+.md-form input:focus:required:invalid{
     border-bottom-color: #F44336 !important;
 }
 .justify{

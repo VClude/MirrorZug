@@ -7,13 +7,13 @@ $(document).ready(function(){
            url : "zugLogin",
            data : {"uname":uname, "pwd":pwd},
            success: function (resp){
-               if(resp == "user"){
+               if(resp === "user"){
                    alert("Signed-in !");
                    location.reload();
-               }else if (resp == "admin"){
+               }else if (resp === "admin"){
                    alert("Welcome Adm00n !");
                    window.location.href = "crud.jsp";
-               }else if (resp == "unauthorized"){
+               }else if (resp === "unauthorized"){
                    alert("Invalid Username and Password");
                }else{
                    alert("Invalid Username and Password");

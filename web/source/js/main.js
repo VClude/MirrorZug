@@ -1,5 +1,6 @@
  $(document).ready(function () {
      $('.mdb-select').material_select();
+     $('.Gender').material_select();
      $('.dropdown-toggle').dropdown();
      $('input:checkbox').click(function () {
          $('input:checkbox').not(this).prop('checked', false);
@@ -11,17 +12,21 @@
      }else{
          $('#bquote').fadeOut('slow');
      }
+     // Tooltips Initialization
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
     });
  });
-var mael = document.getElementById('mael');
-function cykablyat(){
-   if (mael.value == 'akar@akar.pohon') {
-      window.location.href = 'crud.html';
-   }else{
-       alert('email/password incorrect!');
+
+function validateRegist(){
+    if($('select[name=gender] option:nth(0)').is(':selected')){
+        alert('Please Select Gender');
+        return false;
+    }else if(grecaptcha.getResponse()===''){
+       alert('Please fill captcha first');
        return false;
-   }
+    }
 }
+
  $('#fixed-action-btn').click(function () {
      $('#modalCart').modal('show');
  })

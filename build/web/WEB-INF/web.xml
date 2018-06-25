@@ -12,6 +12,10 @@
         <servlet-name>zugLogout</servlet-name>
         <servlet-class>com.chilrend.zugticket.zugLogout</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>zugSignup</servlet-name>
+        <servlet-class>com.chilrend.zugticket.zugSignup</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SomeServlet</servlet-name>
         <url-pattern>/SomeServlet/*</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>zugLogout</servlet-name>
         <url-pattern>/zugLogout/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>zugSignup</servlet-name>
+        <url-pattern>/zugSignup/*</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

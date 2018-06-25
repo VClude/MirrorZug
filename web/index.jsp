@@ -59,7 +59,6 @@
                         <label>Select a Route</label>
                     </div>
                     <div class="col">
-                        
                         <select class="st_from" id="st_from" name="st_from" required>
                             <option value="" disabled selected>Choose route first</option>
                         </select>

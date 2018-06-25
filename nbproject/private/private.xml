@@ -3,11 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/src/java/SomeServlet.java</file>
+            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/src/java/com/chilrend/zugticket/zugLogin.java</file>
+            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/web/sign-up.jsp</file>
+            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/web/includes/header.jsp</file>
+            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/src/java/com/chilrend/zugticket/zugSignup.java</file>
             <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/web/source/js/jsp.js</file>
+            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/web/includes/dbconnect.jsp</file>
             <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/web/index.jsp</file>
-            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/src/java/kdick.java</file>
+            <file>file:/C:/Users/X453SA/Documents/NetBeansProjects/ZugWeb/web/profile.jsp</file>
         </group>
     </open-files>
 </project-private>
