@@ -29,7 +29,7 @@ function validateRegist(){
 
  $('#fixed-action-btn').click(function () {
      $('#modalCart').modal('show');
- })
+ });
 
  var datezfiveyear = new Date();
 
@@ -148,8 +148,7 @@ function valindex() {
      }, 1000);
      $("div").remove('entry' + countersel);
 
- };
-
+ }
  function removepass() {
      $('.entry' + countersel).remove();
      countersel--;
@@ -163,8 +162,7 @@ function valindex() {
          $('#addanother').text("Add Another");
          $('#addanother').removeClass("disabled");
      }
- };
-
+ }
  function cekot() {
      var i;
      i = 0;
@@ -174,8 +172,7 @@ function valindex() {
 
      }
 
- };
-
+ }
  function removecekot() {
      var i;
      i = 0;
@@ -184,9 +181,7 @@ function valindex() {
          $('#pesenjer' + countersel).remove();
 
      }
- };
-
-
+ }
  function dick() {
 
      var stuff = "";

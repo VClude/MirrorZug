@@ -37,6 +37,7 @@
                     <div class="row mt-5"></div>
                     <div class="mt-5">
                         <h1 style="font-size: 4rem;">Success!</h1>
+                        <h4>${requestScope.message}</h4>
                         <h4>You will be redirected into home page automatically, if not, please <a href="index.jsp">click here</a></h4>
                     </div>
                 </div>

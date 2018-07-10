@@ -45,3 +45,7 @@ nav{
 .tab-pane h5{
     font-weight: 500;
 }
+.avatar-pic {
+    width: 200px;
+    height: 200px;
+}

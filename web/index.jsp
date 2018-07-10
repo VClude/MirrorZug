@@ -86,7 +86,7 @@
                     <div class="col">
                         <div class="md-form">
                             <input placeholder="Selected date" type="text" id="tanggal_berangkat" class="form-control datepicker">
-                            <label for="date-picker-example">Date of Departure</label>
+                            <label for="tanggal_berangkat">Date of Departure</label>
                         </div>
                     </div>
                     <div class="col">
