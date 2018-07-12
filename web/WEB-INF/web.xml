@@ -36,6 +36,22 @@
         <servlet-name>imagedisplay</servlet-name>
         <servlet-class>com.chillrend.zugticket.imagedisplay</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>railpass</servlet-name>
+        <servlet-class>com.chillrend.zugticket.railpass</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>railPassInvoice</servlet-name>
+        <servlet-class>com.chillrend.zugticket.railPassInvoice</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>railPassInvoice</servlet-name>
+        <url-pattern>/railPassInvoice</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>railpass</servlet-name>
+        <url-pattern>/railpass/*</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>imagedisplay</servlet-name>
         <url-pattern>/imagedisplay/*</url-pattern>

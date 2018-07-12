@@ -46,6 +46,8 @@ $(document).ready(function () {
     });
     $('#hide-this-first').hide();
     $('#hide-if-password-not-changed').hide();
+
+    $('#selectDays,#selectCountry').material_select();
 });
 
 $('.st_from,.st_to').material_select();
@@ -177,3 +179,22 @@ $("#img-input").change(function() {
 $('.dropdown-toggle').click(function () {
     $('.dropdown-toggle').dropdown('toggle');
 });
+
+$('.row .col-lg-3 .card').click(function(event){
+   $('.row .col-lg-3').find('.card').removeClass('selected');
+   $(this).addClass('selected');
+
+   var selectedPass = $(this).attr('data-value');
+   $('#inputpassname').val(selectedPass);
+});
+
+var datezthreemonth = new Date();
+datezthreemonth.setMonth(new Date().getMonth() + 3);
+
+$(".dateStartPicker").pickadate({
+    format: 'mmmm d, yyyy',
+    formatSubmit: 'mmmm d, yyyy',
+    min: new Date(),
+    max: datezthreemonth
+});
+
